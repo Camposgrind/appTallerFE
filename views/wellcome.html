@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylesheets/pages.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8" />
+
+</head>
+
+<body>
+    <div class="container-xl" style="margin-top:0; width: 70%; background-color: #E9C46A; min-height: 100vh;">
+
+        <div class="container-xl" style="height: 100px; padding-top: 10px; ">
+            <a class="navbar-brand" href="wellcome.html" style="float: left;">
+                <img src="../assets/logoLogin.png" alt="Logo" style="width:90px; padding: 0; margin: 0;">
+            </a>
+            <h1 style="float:left; margin-top: 20px;">Bienvenido a la app web de PICARSO.</h1>
+            <button class="btn" onclick="logout()" style="float:right; background-color:#2A9D8F; color:white; border:0;margin-top: 20px;">Logout</button>
+        </div>
+
+        <div class="card" id="cardInicio">
+            <img class="card-img-top" src="../assets/logoPersonal.png" style="width: 200px; height: 200px; margin: 20px 0 0 50px;" alt="Card image">
+            <div class="card-body">
+                <a href="personal.html" class="btn btn-primary" style="width:257px; background-color: #2A9D8F; border-color: #264653">Personal</a>
+            </div>
+        </div>
+
+        <div class="card" id="cardInicio">
+            <img class="card-img-top" src="../assets/ventasTotales.png" style="width: 200px; height: 200px; margin: 20px 0 0 50px;" alt="Card image">
+            <div class="card-body">
+                <a href="ventasTotales.html" class="btn btn-primary" style="width:257px; background-color: #2A9D8F; border-color: #264653">Ventas Totales</a>
+            </div>
+        </div>
+
+        <div class="card" id="cardInicio">
+            <img class="card-img-top" src="../assets/desgloseVentas.png" style="width: 200px; height: 200px; margin: 20px 0 0 50px;" alt="Card image">
+            <div class="card-body">
+                <a href="ventasPorVendedor.html" class="btn btn-primary" style="width:257px; background-color: #2A9D8F; border-color: #264653">Desglose por Vendedor</a>
+            </div>
+        </div>
+
+        <div class="card" id="cardInicio">
+            <img class="card-img-top" src="../assets/vehiculosVendidos.png" style="width: 200px; height: 200px; margin: 20px 0 0 50px;" alt="Card image">
+            <div class="card-body">
+                <a href="vehiculosVendidos.html" class="btn btn-primary" style="width:257px; background-color: #2A9D8F; border-color: #264653">Vehículos Vendidos</a>
+            </div>
+        </div>
+
+        <div class="card" id="cardInicio">
+            <img class="card-img-top" src="../assets/vehiculosStock.png" style="width: 200px; height: 200px; margin: 20px 0 0 50px;" alt="Card image">
+            <div class="card-body">
+                <a href="vehiculosEnStock.html" class="btn btn-primary" style="width:257px; background-color: #2A9D8F; border-color: #264653">Vehículos en Stock</a>
+            </div>
+        </div>
+
+        <script src="../js/wellcome.js "></script>
+    </div>
+</body>
+
+</html>
